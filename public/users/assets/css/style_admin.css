@@ -1,0 +1,40 @@
+body{
+        
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.counter_box{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2); 
+    border-radius: 3px; 
+    margin-top: 10px;     
+    background-color: white;
+}
+.counter_box_icon{
+    padding: 11px;
+    text-align: center;
+    color: white;
+    background: #30a5ff;
+    font-size: 28px;
+}
+.counter_box_textlarge{
+    text-align: left;
+    padding: 10px;
+}
+.counter_box_textlarge span{
+    font-size: 11px;
+}
+.counter_box_textsmall{
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.counter_box_textsmall span{
+    font-size: 11px;
+}
+/*       admin-dashboard       */
+.hide_element{
+    display: none;
+}

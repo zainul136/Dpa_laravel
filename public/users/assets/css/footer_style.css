@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+fotter{
+    background-color:#1E88E5;
+}
+#cssmenu {
+  background: #1E88E5;
+  width: auto;
+  height:auto;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #90CAF9;
+  text-decoration: none;
+  display: block;
+  list-style:none;
+      padding: 10px 15px;
+      font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+      transition: color .15s linear;
+}
+#cssmenu ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul li a:hover:before {
+    background-color:white;
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  list-style:none;
+  width: 6px;
+  background: #ffffff;
+  opacity: .4;
+}
+
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #ffffff;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}

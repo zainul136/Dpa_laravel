@@ -1,0 +1,50 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+.theme-white .navbar {
+    background-color: #1E88E5!important;
+}
+.theme-white .navbar .nav-link .feather {
+    color: #FFF !important;
+
+}
+.main-content {
+    padding-top: 100px;
+}
+.iziToast-message{
+    color: white !important;
+}
+.media-body a{
+color: #1E88E5 !important;
+list-style-type: circle !important;
+}
+
+
+.light-sidebar .main-sidebar .sidebar-menu li.active a{
+    background: -webkit-linear-gradient(left, #f0f3ff 0%, #f0f3ff 100%) !important;
+    color: #1E88E5 !important;
+}
+
+ .pointer {
+     cursor:pointer;
+ }
+ .main-content1{
+     padding-left: 80px;
+     padding-right: 80px;
+     /* padding-top: 130px; */
+     width: 100%;
+     position: relative;
+     padding-top: 80px;
+ }
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #1E88E5 !important;
+}
+.select2-container--default .select2-results__option--highlighted{
+    background-color: #1E88E5!important;
+    color: white;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: rgba(30, 136, 229, 0.93) !important;;
+}
+
